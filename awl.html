@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header,
+        nav,
+        section,
+        footer {
+            margin: 0;
+            padding: 1em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 1em;
+        }
+
+        section {
+            margin-bottom: 2em;
+        }
+
+        footer {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <video width="600" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>Hello! I'm a web developer with a passion for creating dynamic and responsive websites.</p>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <section id="work">
+            <h2>Work</h2>
+            <ul>
+                <li>Project 1: <a href="project1.html">E-commerce Website</a></li>
+                <li>Project 2: <a href="project2.html">Portfolio Website</a></li>
+                <li>Project 3: <a href="project3.html">Blog Website</a></li>
+            </ul>
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <table border="1">
+                <tr>
+                    <th>Year</th>
+                    <th>Position</th>
+                    <th>Company</th>
+                </tr>
+                <tr>
+                    <td>2020 - Present</td>
+                    <td>Senior Developer</td>
+                    <td>Tech Solutions</td>
+                </tr>
+                <tr>
+                    <td>2018 - 2020</td>
+                    <td>Web Developer</td>
+                    <td>Web Innovators</td>
+                </tr>
+            </table>
+        </section>
+</body>
+</html>
